@@ -22,7 +22,7 @@
     <li><a target='_blank' class="firstsbuttons"
            href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
 </ul>
-<div class="page">
+<div class="page" id="app">
     <img class="logo"
          src="https://www.google.it/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 
@@ -55,5 +55,12 @@
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/animals.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app'
+    })
+</script>
 
 </html>
